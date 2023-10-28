@@ -16,6 +16,9 @@ driver = webdriver.Chrome(service=service, options=options)
 # Initialize a list to store the scraped data
 data = []
 
+# Start loading the page
+driver.get(urlpage)
+
 # Wait for 2 seconds to ensure the page loads
 time.sleep(2)
 
