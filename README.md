@@ -44,11 +44,12 @@ These instructions will help you set up and run the web scraping script on your 
 
 
 **Please Note:** There is no need to add executable webdriver file in the code directory in selenium `v4.6.0` or above. [Selenium Manager](https://www.selenium.dev/blog/2022/introducing-selenium-manager/) will download the webdriver automatically.
+
 For the lower selenium versions, the WebDriver file (e.g., `chromedriver` for Chrome) must be placed in the same directory as the Python script (`MCI_internet_coverage.py`) for the script to work correctly. You can download the webdriver via links below. Make sure the WebDriver version matches your web browser. 
 
-    - [Chrome WebDriver Downloads](https://sites.google.com/a/chromium.org/chromedriver/downloads) (for Chrome)
-    - [GeckoDriver for Firefox](https://github.com/mozilla/geckodriver/releases) (for Firefox)
-    - [WebDriver for Other Browsers](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/) (for other browsers)
+   - [Chrome WebDriver Downloads](https://sites.google.com/a/chromium.org/chromedriver/downloads) (for Chrome)
+   - [GeckoDriver for Firefox](https://github.com/mozilla/geckodriver/releases) (for Firefox)
+   - [WebDriver for Other Browsers](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/) (for other browsers)
 
 
 ## Data Format
@@ -68,7 +69,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- This project is not affiliated with or endorsed by MCI (Mobile Telecommunication Company of Iran).
+This project is not affiliated with or endorsed by MCI (Mobile Telecommunication Company of Iran).
 
 ## Learn More About Web Scraping and Selenium
 
@@ -79,9 +80,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Selenium with Python - Tutorialspoint](https://www.tutorialspoint.com/selenium/index.htm)
 - [Web Scraping with Selenium and Python](https://realpython.com/modern-web-automation-with-python-and-selenium/)
 
-### Using Browsers Other Than Chrome
-
-You can use web browsers other than Chrome with Selenium. To learn more about setting up Selenium with different browsers, refer to the official documentation:
 
 - [Selenium Web Browsers](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/)
 
