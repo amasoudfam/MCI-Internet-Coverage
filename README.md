@@ -23,7 +23,7 @@ These instructions will help you set up and run the web scraping script on your 
 - **Required Python packages**: You can install the necessary Python packages using pip:
 
     ```bash
-    pip install selenium pandas
+    pip install -r requirements.txt
     ```
 
 ### Usage
