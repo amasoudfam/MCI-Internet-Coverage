@@ -14,12 +14,6 @@ These instructions will help you set up and run the web scraping script on your 
 
 - **Python**: Make sure you have Python installed on your system. You can download it from the [Python official website](https://www.python.org/downloads/).
 
-- **Web Driver**: You will need to download the WebDriver executable that matches your preferred web browser. Here are some common options:
-
-    - [Chrome WebDriver Downloads](https://sites.google.com/a/chromium.org/chromedriver/downloads) (for Chrome)
-    - [GeckoDriver for Firefox](https://github.com/mozilla/geckodriver/releases) (for Firefox)
-    - [WebDriver for Other Browsers](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/) (for other browsers)
-
 - **Required Python packages**: You can install the necessary Python packages using pip:
 
     ```bash
@@ -40,18 +34,21 @@ These instructions will help you set up and run the web scraping script on your 
    cd MCI-Internet-Coverage
    ```
 
-3. Download and place the WebDriver executable for your preferred web browser in the project directory.
-
-4. Run the Python script.
+3. Run the Python script.
 
    ```bash
    python MCI_internet_coverage.py
    ```
 
-5. The script will scrape the data and save it in an Excel file named `MCI_internet_coverage.xlsx` in the same directory.
+4. The script will scrape the data and save it in an Excel file named `MCI_internet_coverage.xlsx` in the same directory.
 
 
-**Please Note:** The WebDriver file (e.g., `chromedriver` for Chrome) must be placed in the same directory as the Python script (`MCI_internet_coverage.py`) for the script to work correctly. Make sure the WebDriver version matches your web browser.
+**Please Note:** There is no need to add executable webdriver file in the code directory in selenium `v4.6.0` or above. [Selenium Manager](https://www.selenium.dev/blog/2022/introducing-selenium-manager/) will download the webdriver automatically.
+For the lower selenium versions, the WebDriver file (e.g., `chromedriver` for Chrome) must be placed in the same directory as the Python script (`MCI_internet_coverage.py`) for the script to work correctly. You can download the webdriver via links below. Make sure the WebDriver version matches your web browser. 
+
+    - [Chrome WebDriver Downloads](https://sites.google.com/a/chromium.org/chromedriver/downloads) (for Chrome)
+    - [GeckoDriver for Firefox](https://github.com/mozilla/geckodriver/releases) (for Firefox)
+    - [WebDriver for Other Browsers](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/) (for other browsers)
 
 
 ## Data Format
