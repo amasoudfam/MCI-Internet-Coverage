@@ -1,17 +1,14 @@
 import re
 import pandas as pd
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import time
 
 # URL of the MCI internet coverage map
 urlpage = 'https://mci.ir/notrino-coverage-map'
 
-# Set up the WebDriver for Chrome (adjust the executable path as needed)
-service = Service(executable_path="./chromedriver")
-options = webdriver.ChromeOptions()
-driver = webdriver.Chrome(service=service, options=options)
+# Set up the WebDriver for Chrome
+driver = webdriver.Chrome()
 
 # Initialize a list to store the scraped data
 data = []
